@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+
+#btn{
+ width: 100px;
+ height: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(112, 100, 100)
+}
+#menu{
+    display: block;
+    text-align: center;
+    background-image: url('images/filmezera.jpg');
+    background-size: cover;  
+}
+
+input{
+    width: 100%;
+    max-width: 240px;
+    height: 20px;
+    margin: 20px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-filme{
+    margin-top: 20px;
+    margin-left: 10px;
+    vertical-align: center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+box-filme img{
+margin-right: 10px;
+}
+
+img{
+    width: 100%;
+    max-width: 250px;
+    display: block;
+}
+
+h2{
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 90px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+#buttons{
+    text-align: center;
+    background-color: rgb(1, 1, 70);
+
+}
+
+#btnHome{
+    width: 80px;
+    height: 30px;
+    color: black;
+    margin: 10px ;
+}
+
+#conteudo{
+    background-color: rgb(31, 30, 30);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+       
+}
+
+span{
+    color: white;
+    font-size: large;
+}
+
+.title{
+    font-size: 30px;
+}
+
+h2{
+    display: block;
+}
+
+@media screen and (max-width: 857px){
+
+#conteudo{
+    display: block;
+    text-align: center;
+}
+
+img{
+   margin: 0 auto;
+}
+
+
+}
+
+
+
+
+
+
